@@ -1,0 +1,44 @@
+main{
+    border: black 1px solid;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: rgba(58, 167, 218, 0.808);
+}
+h2{
+    color: rgba(58, 167, 218, 0.808);
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+}
+.detalles{
+    width: 35%;
+    float: left;
+    background-color: rgba(58, 167, 218, 0.808);
+    font-size: small;
+    color: white;
+    margin-right: 20px;
+}
+.informacion{
+    width: 65%;
+    float: right;
+}
+img.profile {
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+h3.blue{
+    color: rgba(58, 167, 218, 0.808);
+}
+
+@media (min-width:1024px) {
+    .cuerpo{
+        width: 80%;
+        margin: auto;
+    }
+}
